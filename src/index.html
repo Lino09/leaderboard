@@ -24,11 +24,27 @@
             <div>
                 <div class="title">
                     <h2 class="subtitle">Recent scores</h2>
-                    <button>Refresh</button>
+                    <button type="button" class="btn-primary">Refresh</button>
                 </div>
+                <ul class="score-list">
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
             </div>
             <div>
                 <h3 class="subtitle">Add your score</h3>
+                <form action="POST" class="add-score-form">
+                    <label for="name">
+                        <input type="text" id="name" name="Your name" required oninvalid="this.setCustomValidity('A score needs a name')"
+                        oninput="this.setCustomValidity('')">
+                    </label>
+                    <label for="score">
+                        <input type="text" id="score" name="Your score" required oninvalid="this.setCustomValidity('I am sure is more than zero')"
+                        oninput="this.setCustomValidity('')">
+                    </label>
+                    <button type="submit" class="btn-primary">Submit</button>
+                </form>
             </div>
         </section>
     </main>
