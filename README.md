@@ -21,39 +21,31 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### You need NPM installed in your comnputer
 
-### Setup
+### clone the repo
 
-### Install
+### Run the following commands
 
-### Usage
+> cd todo-list <br>
+> `npm install` <br> 
+> `npm run build` <br>
+> `npm run start`
 
-### Run tests
+### It will run in your http://localhost:8080/
 
-### Deployment
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Abel Herrera**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Lino09](https://github.com/Lino09)
+- Twitter: [@AbelHerreaZam1](https://twitter.com/AbelHerreaZam1)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -73,4 +65,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is Free to use
