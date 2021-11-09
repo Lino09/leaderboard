@@ -1,6 +1,11 @@
 html {
   scroll-behavior: smooth;
 }
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 :root {
   --bg-primary:  #172774;
   --accent-primary: #ff0075;
@@ -8,15 +13,56 @@ html {
   --base-primary: #fff;
 }
 
-.containter {
+.container {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
 }
 
 .content {
-  max-width: 1024px;
+  max-width: 1280px;
   width: 100%;
+}
+
+/* HEADER */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.header-nav {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+/* HERO */
+
+.hero {
+  margin-top: 36px;
+}
+
+.scoreboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 48px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtitle {
+  font-size: 28px;
+  font-weight: 900;
 }
