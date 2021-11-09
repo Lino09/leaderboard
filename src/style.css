@@ -1,6 +1,12 @@
 html {
   scroll-behavior: smooth;
 }
+:root {
+  --bg-primary:  #172774;
+  --accent-primary: #ff0075;
+  --accent-secundary: #77d970;
+  --base-primary: #fff;
+}
 
 .containter {
   display: flex;
