@@ -33,7 +33,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 16px 16px;
+  padding: 16px 16px;
 }
 
 .logo {
@@ -48,6 +48,7 @@ html {
 }
 
 /* HERO */
+
 /* LEFT SECTION */
 
 .btn-primary {
@@ -123,6 +124,7 @@ html {
   border: none;
   font-size: 20px;
 }
+
 .add-score-input:focus {
   outline: none;
 }
