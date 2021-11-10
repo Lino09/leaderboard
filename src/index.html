@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpack Exercise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <title>Leaderboard</title>
 </head>
+
 <body>
-    <h1>Hello webpacksdfsdfsdfsd!</h1>
+    <header class="container">
+        <nav class="content nav">
+            <h1 class="logo">Leaderboard</h1>
+            <ul class="header-nav">
+                <li>link to somenthing</li>
+                <li>link to somenthing</li>
+                <li>link to somenthing</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container hero">
+        <section class="content scoreboard">
+            <div class="scores">
+                <div class="title">
+                    <h2 class="subtitle">Recent scores</h2>
+                    <button type="button" class="btn-primary">Refresh</button>
+                </div>
+                <ul class="score-list">
+                    <li class="score-unit">
+                        Superman
+                        <span>50</span>
+                        <span class="date"></span>
+                    </li>
+                    <li class="score-unit">
+                        Flash
+                        <span>90</span>
+                        <span class="date"></span>
+                    </li>
+                    <li class="score-unit">
+                        Ussain Bolt
+                        <span>10</span>
+                        <span class="date"></span>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="subtitle">Add your score</h3>
+                <form action="POST" class="add-score-form">
+                    <label class="add-score-label" for="name">
+                        <input class="add-score-input" type="text" id="name" name="Your name" required
+                            oninvalid="this.setCustomValidity('A score needs a name')"
+                            oninput="this.setCustomValidity('')">
+                    </label>
+                    <label class="add-score-label" for="score">
+                        <input class="add-score-input" type="text" id="score" name="Your score" required
+                            oninvalid="this.setCustomValidity('I am sure is more than zero')"
+                            oninput="this.setCustomValidity('')">
+                    </label>
+                    <button type="submit" class="btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        A good ol' footer
+    </footer>
 </body>
+
 </html>
