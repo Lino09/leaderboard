@@ -27,24 +27,13 @@
         <section class="content scoreboard">
             <div class="scores">
                 <div class="title">
-                    <h2 class="subtitle">Recent scores</h2>
-                    <button type="button" class="btn-primary">Refresh</button>
+                    <h2 class="subtitle">Recent scores (Quidditch Game)</h2>
+                    <button type="button" class="btn-primary" id="refresh">Refresh</button>
                 </div>
                 <ul class="score-list">
                     <li class="score-unit">
                         Superman
-                        <span>50</span>
-                        <span class="date"></span>
-                    </li>
-                    <li class="score-unit">
-                        Flash
-                        <span>90</span>
-                        <span class="date"></span>
-                    </li>
-                    <li class="score-unit">
-                        Ussain Bolt
-                        <span>10</span>
-                        <span class="date"></span>
+                        <span>999</span>
                     </li>
                 </ul>
             </div>
@@ -62,6 +51,7 @@
                             oninput="this.setCustomValidity('')">
                     </label>
                     <button type="submit" class="btn-primary">Submit</button>
+                    <span class="notice">Saved</span>
                 </form>
             </div>
         </section>
