@@ -93,8 +93,8 @@ html {
 }
 
 .score-unit {
-  display: grid;
-  grid-template-columns: 1fr 1fr auto;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   padding: 8px;
 }
@@ -129,10 +129,15 @@ html {
   outline: none;
 }
 
+.notice {
+  opacity: 0;
+  transition: all 0.5s ease 0s;
+}
+
 /* FOOTER */
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: lightgray;
