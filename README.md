@@ -2,21 +2,19 @@
 
 # Leaderboard
 
-> This projects is made to practice the use of APIs and ES6
+> This projects is made to practice the use of APIs and ES6 modules
 
-![screenshot](./app_screenshot.png)
+![screenshot](./src/assets/screenshot.jpg)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS & JavaScript
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://lino09.github.io/leaderboard/dist)
 
 
 ## Getting Started
@@ -39,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-## Authors
+## Author
 
 👤 **Abel Herrera**
 
@@ -59,9 +57,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Kevin Powell
 
 ## 📝 License
 

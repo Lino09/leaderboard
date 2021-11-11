@@ -17,9 +17,6 @@
         <nav class="content nav">
             <h1 class="logo">Leaderboard</h1>
             <ul class="header-nav">
-                <li>link to somenthing</li>
-                <li>link to somenthing</li>
-                <li>link to somenthing</li>
             </ul>
         </nav>
     </header>
@@ -28,7 +25,7 @@
             <div class="scores">
                 <div class="title">
                     <h2 class="subtitle">Recent scores (Quidditch Game)</h2>
-                    <button type="button" class="btn-primary" id="refresh">Refresh</button>
+                    <button type="button" class="btn-primary btn-left" id="refresh">Refresh</button>
                 </div>
                 <ul class="score-list">
                     <li class="score-unit">
@@ -39,25 +36,22 @@
             </div>
             <div>
                 <h3 class="subtitle">Add your score</h3>
-                <form action="POST" class="add-score-form">
+                <form action="POST" class="add-score-form" autocomplete="off">
                     <label class="add-score-label" for="name">
-                        <input class="add-score-input" type="text" id="name" name="Your name" required
-                            oninvalid="this.setCustomValidity('A score needs a name')"
-                            oninput="this.setCustomValidity('')">
+                        <input class="add-score-input" type="text" pattern="[a-zA-Z]*" id="name" name="Your name" required placeholder="Your name (Text only)">
                     </label>
                     <label class="add-score-label" for="score">
-                        <input class="add-score-input" type="text" id="score" name="Your score" required
-                            oninvalid="this.setCustomValidity('I am sure is more than zero')"
-                            oninput="this.setCustomValidity('')">
+                        <input class="add-score-input" type="number" id="score" name="Your score" required placeholder="Your score"
+                            >
                     </label>
-                    <button type="submit" class="btn-primary">Submit</button>
+                    <button type="submit" class="btn-primary btn-right">Submit</button>
                     <span class="notice">Saved</span>
                 </form>
             </div>
         </section>
     </main>
     <footer>
-        A good ol' footer
+        Howarts' Quidditch Yearly Tournament&trade;
     </footer>
 </body>
 
