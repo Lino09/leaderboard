@@ -38,14 +38,11 @@
                 <h3 class="subtitle">Add your score</h3>
                 <form action="POST" class="add-score-form" autocomplete="off">
                     <label class="add-score-label" for="name">
-                        <input class="add-score-input" type="text" id="name" name="Your name" required placeholder="Your name"
-                            oninvalid="this.setCustomValidity('A score needs a name')"
-                            oninput="this.setCustomValidity('')">
+                        <input class="add-score-input" type="text" pattern="[a-zA-Z]*" id="name" name="Your name" required placeholder="Your name (Text only)">
                     </label>
                     <label class="add-score-label" for="score">
-                        <input class="add-score-input" type="text" id="score" name="Your score" required placeholder="Your score"
-                            oninvalid="this.setCustomValidity('I am sure is more than zero')"
-                            oninput="this.setCustomValidity('')">
+                        <input class="add-score-input" type="number" id="score" name="Your score" required placeholder="Your score"
+                            >
                     </label>
                     <button type="submit" class="btn-primary btn-right">Submit</button>
                     <span class="notice">Saved</span>
