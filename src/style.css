@@ -220,7 +220,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: lightgray;
-  padding: 12px 36px;
+  padding: 24px 36px;
   font-size: 24px;
+  border-top: 2px solid var(--base-secundary);
 }
